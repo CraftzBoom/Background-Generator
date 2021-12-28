@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ?CUSTOM VARIABLES */
+/* ? --CUSTOM VARIABLES Properties-- */
 :root {
     --txt-font-one: 'Metal Mania', cursive;
     --txt-font-two: 'Open Sans', sans-serif;
@@ -53,7 +54,8 @@ input {
 }
 
 .primary-color::-webkit-color-swatch-wrapper {
-    padding: 0;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 .primary-color::-webkit-color-swatch {
@@ -115,9 +117,9 @@ input {
 
 .img {
     position: absolute;
-    top: 50%;
+    top: 48%;
     z-index: -1;
-    right: 25%;
+    right: 36%;
     width: 240px;
 }
 

@@ -8,7 +8,7 @@ let rgbaValue = document.querySelector(".rgba-value")
 
 // !Arrow Functions!!
 const setGradient = () => {
-    //create function to set background using color input values!!
+    //function to set background using color input values!!
     body.style.background = "linear-gradient(to right, "
                             + `${colorOne.value}`
                             + ", "
@@ -26,12 +26,12 @@ const returnRandomColor = () => {
      for (let i=0; i<6; i++) {
          color += letter[Math.floor(Math.random() * 16)];
      }
-     console.log(color);
+     // console.log(color);
      return color;
 }
 
 const displayRandomColor = () => {
-    //function to initialize random value to color input!!
+    //function to initialize random color input value!!
     colorOne[`value`] = returnRandomColor();
     colorTwo[`value`] = returnRandomColor();
 
